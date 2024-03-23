@@ -17,7 +17,7 @@ import { useSaveBlogMutation } from "../../hooks/readinglist/useSaveBlogMutation
 import { useWhetherUserSavedBlogQuery } from "../../hooks/readinglist/useWhetherUserSavedBlogQuery";
 import { timeDiff } from "../../utils/relativeTime";
 import { Comments } from "./components/Comments";
-const baseUrl = "http://127.0.0.1:8000";
+const baseUrl = "https://azad.pythonanywhere.com/";
 
 
 export const ViewSingleBlog = (): JSX.Element => {

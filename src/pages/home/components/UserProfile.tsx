@@ -13,7 +13,7 @@ export const UserProfile = (): JSX.Element => {
   const authToken = localStorage.getItem("authToken");
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const dropdownRef = useRef<any>();
-  const baseUrl = "http://127.0.0.1:8000";
+  const baseUrl = "https://azad.pythonanywhere.com/";
 
   const navigate = useNavigate();
 
