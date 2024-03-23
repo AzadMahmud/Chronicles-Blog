@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import React from "react";
 import { useSearchParams } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
