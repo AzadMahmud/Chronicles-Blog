@@ -1,4 +1,4 @@
-export const BASEURL = "https://azad.pythonanywhere.com/static";
+export const BASEURL = "https://azad.pythonanywhere.com";
 
 export const reactQuillModules = {
   toolbar: [
