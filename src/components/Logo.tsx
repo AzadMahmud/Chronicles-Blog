@@ -17,7 +17,7 @@ export const Logo = ({ textSize, animationDelay }: LogoProps): JSX.Element => {
       <RoughNotation
         type="highlight"
         show={true}
-        color="#f2e679"
+        color="#ffff"
         strokeWidth={2}
         padding={10}
         animationDelay={animationDelay}
