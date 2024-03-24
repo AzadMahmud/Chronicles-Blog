@@ -2,7 +2,7 @@
 import { HiFire } from "react-icons/hi";
 import { useNavigate } from "react-router-dom";
 import { timeDiff } from "../../../utils/relativeTime";
-const baseUrl = "https://azad.pythonanywhere.com";
+const baseUrl = "https://azad.pythonanywhere.com/static";
 
 
 export const BlogCard = ({ blogData }: any): JSX.Element => {

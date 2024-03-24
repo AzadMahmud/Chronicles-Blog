@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { BiImageAdd } from "react-icons/bi";
 import { SelectCoverImageProps } from "../types";
-const baseUrl = "https://azad.pythonanywhere.com";
+const baseUrl = "https://azad.pythonanywhere.com/static";
 
 
 export const SelectCoverImage = ({ previewImage, onChangeHandler }: SelectCoverImageProps): JSX.Element => {
